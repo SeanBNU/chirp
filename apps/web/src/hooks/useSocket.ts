@@ -49,11 +49,13 @@ export function useSocket() {
     callback: SocketEvents[K]
   ) => {
     if (socketRef.current) {
-      socketRef.current.on(event, callback as (...args: unknown[]) => void);
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      socketRef.current.on(event, callback as any);
     }
     return () => {
       if (socketRef.current) {
-        socketRef.current.off(event, callback as (...args: unknown[]) => void);
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        socketRef.current.off(event, callback as any);
       }
     };
   }, []);

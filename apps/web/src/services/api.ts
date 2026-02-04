@@ -31,8 +31,8 @@ async function request<T>(
 ): Promise<T> {
   const token = localStorage.getItem('token');
   
-  const headers: HeadersInit = {
-    ...options.headers,
+  const headers: Record<string, string> = {
+    ...(options.headers as Record<string, string>),
   };
 
   if (!(options.body instanceof FormData)) {

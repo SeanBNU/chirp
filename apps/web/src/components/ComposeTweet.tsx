@@ -59,13 +59,13 @@ export function ComposeTweet({ parentId, placeholder = "What's happening?", onSu
   const handleSubmit = async () => {
     if (!content.trim() || content.length > maxChars) return;
 
-    const input: CreateTweetInput & { media?: File[] } = {
+    const input = {
       content: content.trim(),
       vibe: selectedVibe || undefined,
       hasCode,
       parentId,
       media: media.length > 0 ? media : undefined,
-    };
+    } as CreateTweetInput & { media?: File[] };
 
     if (showPollCreator && pollQuestion && pollOptions.filter(Boolean).length >= 2) {
       input.poll = {

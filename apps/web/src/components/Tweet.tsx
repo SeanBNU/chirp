@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { formatDistanceToNow } from 'date-fns';
 import type { Tweet as TweetType, ReactionType } from '@chirp/shared';
-import { REACTIONS, VIBES, getVibeClass, highlightCode, triggerConfetti, playSound } from '../utils/vibes';
+import { REACTIONS, VIBES, getVibeClass, highlightCode, playSound } from '../utils/vibes';
 import { useReaction, useRetweet, useVote } from '../hooks/useTweets';
 import { useUIStore } from '../stores/uiStore';
 
