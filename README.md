@@ -1,6 +1,11 @@
 # Chirp
 
-A modern, full-stack social media platform for developers. Built with TypeScript, React, Node.js, PostgreSQL, and real-time features.
+> **Portfolio Project** — A full-stack application demonstrating modern web development practices including TypeScript, React, Node.js, PostgreSQL, Docker, CI/CD, and real-time features.
+
+[![CI](https://github.com/SeanBNU/chirp/actions/workflows/ci.yml/badge.svg)](https://github.com/SeanBNU/chirp/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A modern, full-stack social media platform for developers. Think Twitter, but built for the dev community with unique features like code snippets, vibes, achievements, and streaks.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
@@ -9,6 +14,38 @@ A modern, full-stack social media platform for developers. Built with TypeScript
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socket.io&logoColor=white)
+
+## Screenshots
+
+<!-- Add your screenshots here -->
+<p align="center">
+  <img src="docs/screenshots/home-feed.png" alt="Home Feed" width="800">
+</p>
+
+<details>
+<summary>View more screenshots</summary>
+
+| Feature | Screenshot |
+|---------|------------|
+| Profile Page | ![Profile](docs/screenshots/profile.png) |
+| Leaderboard | ![Leaderboard](docs/screenshots/leaderboard.png) |
+| Vibes Filter | ![Vibes](docs/screenshots/vibes.png) |
+
+</details>
+
+## Skills Demonstrated
+
+This project showcases proficiency in:
+
+| Category | Technologies & Concepts |
+|----------|------------------------|
+| **Frontend** | React 18, TypeScript, Vite, TanStack Query, Zustand, Tailwind CSS, Responsive Design |
+| **Backend** | Node.js, Express, TypeScript, REST API Design, JWT Authentication, WebSockets |
+| **Database** | PostgreSQL, Prisma ORM, Database Schema Design, Migrations, Seeding |
+| **DevOps** | Docker, Docker Compose, GitHub Actions CI/CD, Environment Configuration |
+| **Testing** | Vitest, React Testing Library, Unit & Integration Tests |
+| **Architecture** | Monorepo Structure, Clean Architecture, Separation of Concerns, Type Safety |
+| **Best Practices** | ESLint, Input Validation (Zod), Error Handling, Security Headers (Helmet), Logging |
 
 ## Features
 
@@ -97,7 +134,7 @@ chirp/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/chirp.git
+   git clone https://github.com/SeanBNU/chirp.git
    cd chirp
    ```
 
