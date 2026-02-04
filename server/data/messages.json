@@ -1,0 +1,178 @@
+[
+  {
+    "id": "3ce5c5fb-6034-4d0f-96fd-83180ba68b52",
+    "senderId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "receiverId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "content": "That code snippet you shared - brilliant! Mind if I use it?",
+    "createdAt": "2026-01-28T05:31:55.025Z",
+    "read": true
+  },
+  {
+    "id": "1100e468-332f-418c-96cc-65dba574923e",
+    "senderId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "receiverId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "content": "Just saw your latest project. Impressive work! 🚀",
+    "createdAt": "2026-01-28T05:41:16.453Z",
+    "read": true
+  },
+  {
+    "id": "d370b70e-cfe7-4082-88a5-e95e612e8dc7",
+    "senderId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "receiverId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "content": "Saw you got the Code Wizard badge! Well deserved! 🧙‍♂️",
+    "createdAt": "2026-01-28T06:06:44.294Z",
+    "read": false
+  },
+  {
+    "id": "429f7474-3ff5-40ee-8308-aaa4181c1703",
+    "senderId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "receiverId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "content": "Hey! Loved your recent chirp about AI. Great insights! 🔥",
+    "createdAt": "2026-01-28T06:46:06.938Z",
+    "read": true
+  },
+  {
+    "id": "7fc232d0-9b70-465c-a2df-077aaab610c0",
+    "senderId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "receiverId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "content": "That code snippet you shared - brilliant! Mind if I use it?",
+    "createdAt": "2026-01-28T07:27:31.545Z",
+    "read": true
+  },
+  {
+    "id": "32f8d832-b6f3-4f0d-adc0-66871a74bff3",
+    "senderId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "receiverId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "content": "Your streak is insane! How do you stay so consistent?",
+    "createdAt": "2026-01-28T07:44:13.628Z",
+    "read": true
+  },
+  {
+    "id": "00c7de7c-df99-44b5-aa41-623bdc1cdc4b",
+    "senderId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "receiverId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "content": "Just saw your latest project. Impressive work! 🚀",
+    "createdAt": "2026-01-28T05:07:42.734Z",
+    "read": true
+  },
+  {
+    "id": "638859cd-4a6c-4ff7-89ac-7029645e5bfc",
+    "senderId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "receiverId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "content": "Quick question - what stack are you using for your new thing?",
+    "createdAt": "2026-01-28T05:44:30.307Z",
+    "read": false
+  },
+  {
+    "id": "ec4b7c0b-f263-4ed4-af16-a76837691526",
+    "senderId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "receiverId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "content": "Your streak is insane! How do you stay so consistent?",
+    "createdAt": "2026-01-28T05:33:45.125Z",
+    "read": false
+  },
+  {
+    "id": "8745fc93-efad-4543-866e-6f61a89ffc6c",
+    "senderId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "receiverId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "content": "Quick question - what stack are you using for your new thing?",
+    "createdAt": "2026-01-28T06:09:25.477Z",
+    "read": true
+  },
+  {
+    "id": "9b42aec7-d369-405e-b4cc-dc9e17d113e5",
+    "senderId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "receiverId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "content": "Just saw your latest project. Impressive work! 🚀",
+    "createdAt": "2026-01-28T05:55:17.198Z",
+    "read": true
+  },
+  {
+    "id": "f5cc5b0e-dfa5-4ed3-8855-10d5211aeab0",
+    "senderId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "receiverId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "content": "Hey! Loved your recent chirp about AI. Great insights! 🔥",
+    "createdAt": "2026-01-28T06:54:45.780Z",
+    "read": false
+  },
+  {
+    "id": "e97a72b6-fa59-4e3a-ac90-228026d0faeb",
+    "senderId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "receiverId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "content": "That code snippet you shared - brilliant! Mind if I use it?",
+    "createdAt": "2026-01-28T07:04:43.939Z",
+    "read": true
+  },
+  {
+    "id": "c57a5ec5-2dea-431e-9c33-abd641a893ab",
+    "senderId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "receiverId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "content": "That code snippet you shared - brilliant! Mind if I use it?",
+    "createdAt": "2026-01-28T05:14:02.144Z",
+    "read": true
+  },
+  {
+    "id": "71862fe7-e5fb-4b5c-89a0-2a83f8c65d03",
+    "senderId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "receiverId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "content": "Did you see the new React features? Crazy stuff happening.",
+    "createdAt": "2026-01-28T05:42:30.397Z",
+    "read": false
+  },
+  {
+    "id": "b60616b4-ef33-46bb-8a6b-9d7c43c38a3e",
+    "senderId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "receiverId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "content": "Thanks for the code review. Really helped improve the PR.",
+    "createdAt": "2026-01-28T06:26:16.944Z",
+    "read": true
+  },
+  {
+    "id": "3af6c468-6a56-4c8e-8612-3ade03c27cba",
+    "senderId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "receiverId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "content": "Quick question - what stack are you using for your new thing?",
+    "createdAt": "2026-01-28T05:48:56.608Z",
+    "read": true
+  },
+  {
+    "id": "d284a1fc-abfd-468c-b1e0-4d60cc9dec3f",
+    "senderId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "receiverId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "content": "Did you see the new React features? Crazy stuff happening.",
+    "createdAt": "2026-01-28T06:25:19.615Z",
+    "read": false
+  },
+  {
+    "id": "a1aa8689-22ba-488e-ae44-f1bc1803f42a",
+    "senderId": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "receiverId": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "content": "Quick question - what stack are you using for your new thing?",
+    "createdAt": "2026-01-28T05:07:07.275Z",
+    "read": true
+  },
+  {
+    "id": "60b8e5b2-3fcf-47fa-b224-f4aabbd200ba",
+    "senderId": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "receiverId": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "content": "We should collab on something. DM me your ideas!",
+    "createdAt": "2026-01-28T05:55:27.978Z",
+    "read": true
+  },
+  {
+    "id": "a991183c-52fb-4194-82ea-437c56ac0051",
+    "senderId": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "receiverId": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "content": "Coffee sometime? Would love to chat more about your work.",
+    "createdAt": "2026-01-28T06:46:08.964Z",
+    "read": true
+  },
+  {
+    "id": "c9422742-590b-41ab-8de7-64aa4cf94d29",
+    "senderId": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "receiverId": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "content": "Just saw your latest project. Impressive work! 🚀",
+    "createdAt": "2026-01-28T06:53:53.845Z",
+    "read": true
+  }
+]

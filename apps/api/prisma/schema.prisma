@@ -1,0 +1,194 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  username      String    @unique
+  email         String    @unique
+  password      String
+  name          String
+  bio           String?
+  avatar        String?
+  banner        String?
+  location      String?
+  website       String?
+
+  // Gamification
+  streak        Int       @default(0)
+  lastPostDate  DateTime?
+  totalReactions Int      @default(0)
+
+  // Settings
+  soundEnabled  Boolean   @default(true)
+  focusMode     Boolean   @default(false)
+  theme         String    @default("dark")
+
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Relations
+  tweets              Tweet[]
+  reactions           Reaction[]
+  achievements        UserAchievement[]
+  followers           Follow[]        @relation("following")
+  following           Follow[]        @relation("followers")
+  notifications       Notification[]  @relation("recipient")
+  sentNotifications   Notification[]  @relation("sender")
+  sentMessages        Message[]       @relation("sender")
+  receivedMessages    Message[]       @relation("receiver")
+  pollVotes           PollVote[]
+
+  @@index([username])
+  @@index([email])
+}
+
+model Tweet {
+  id          String    @id @default(cuid())
+  content     String
+  authorId    String
+  author      User      @relation(fields: [authorId], references: [id], onDelete: Cascade)
+
+  // Features
+  vibe        String?
+  hasCode     Boolean   @default(false)
+  media       String[]
+
+  // Relations
+  parentId    String?
+  parent      Tweet?    @relation("replies", fields: [parentId], references: [id], onDelete: SetNull)
+  replies     Tweet[]   @relation("replies")
+  
+  retweetOfId String?
+  retweetOf   Tweet?    @relation("retweets", fields: [retweetOfId], references: [id], onDelete: SetNull)
+  retweets    Tweet[]   @relation("retweets")
+  
+  reactions   Reaction[]
+  poll        Poll?
+  notifications Notification[]
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([authorId])
+  @@index([parentId])
+  @@index([retweetOfId])
+  @@index([createdAt(sort: Desc)])
+  @@index([vibe])
+}
+
+model Reaction {
+  id        String   @id @default(cuid())
+  type      String   // fire, rocket, insightful, love, funny, mindblown
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tweetId   String
+  tweet     Tweet    @relation(fields: [tweetId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, tweetId])
+  @@index([tweetId])
+}
+
+model Poll {
+  id        String       @id @default(cuid())
+  question  String
+  tweetId   String       @unique
+  tweet     Tweet        @relation(fields: [tweetId], references: [id], onDelete: Cascade)
+  options   PollOption[]
+  endsAt    DateTime
+  createdAt DateTime     @default(now())
+}
+
+model PollOption {
+  id      String     @id @default(cuid())
+  text    String
+  pollId  String
+  poll    Poll       @relation(fields: [pollId], references: [id], onDelete: Cascade)
+  votes   PollVote[]
+
+  @@index([pollId])
+}
+
+model PollVote {
+  id       String     @id @default(cuid())
+  userId   String
+  user     User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  optionId String
+  option   PollOption @relation(fields: [optionId], references: [id], onDelete: Cascade)
+  pollId   String
+  createdAt DateTime  @default(now())
+
+  @@unique([userId, pollId])
+  @@index([optionId])
+}
+
+model Follow {
+  id          String   @id @default(cuid())
+  followerId  String
+  follower    User     @relation("followers", fields: [followerId], references: [id], onDelete: Cascade)
+  followingId String
+  following   User     @relation("following", fields: [followingId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now())
+
+  @@unique([followerId, followingId])
+  @@index([followerId])
+  @@index([followingId])
+}
+
+model Achievement {
+  id          String            @id
+  name        String
+  description String
+  emoji       String
+  users       UserAchievement[]
+}
+
+model UserAchievement {
+  id            String      @id @default(cuid())
+  userId        String
+  user          User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievementId String
+  achievement   Achievement @relation(fields: [achievementId], references: [id])
+  unlockedAt    DateTime    @default(now())
+
+  @@unique([userId, achievementId])
+  @@index([userId])
+}
+
+model Notification {
+  id          String   @id @default(cuid())
+  type        String   // follow, reaction, reply, retweet, mention
+  recipientId String
+  recipient   User     @relation("recipient", fields: [recipientId], references: [id], onDelete: Cascade)
+  senderId    String
+  sender      User     @relation("sender", fields: [senderId], references: [id], onDelete: Cascade)
+  tweetId     String?
+  tweet       Tweet?   @relation(fields: [tweetId], references: [id], onDelete: Cascade)
+  reactionType String?
+  read        Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  @@index([recipientId, read])
+  @@index([recipientId, createdAt(sort: Desc)])
+}
+
+model Message {
+  id         String   @id @default(cuid())
+  content    String
+  senderId   String
+  sender     User     @relation("sender", fields: [senderId], references: [id], onDelete: Cascade)
+  receiverId String
+  receiver   User     @relation("receiver", fields: [receiverId], references: [id], onDelete: Cascade)
+  read       Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  @@index([senderId, receiverId])
+  @@index([receiverId, senderId])
+  @@index([createdAt(sort: Desc)])
+}

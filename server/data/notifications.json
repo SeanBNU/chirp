@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "728b287b-4994-4a0c-b77a-4b929e76fa68",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "4792bc9c-1969-4120-8336-0f0c2e48567b",
+    "createdAt": "2026-01-18T11:00:44.743Z",
+    "read": true
+  },
+  {
+    "id": "1d17c725-c751-42ce-8c0d-086e1df527a0",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "tweetId": "4792bc9c-1969-4120-8336-0f0c2e48567b",
+    "createdAt": "2026-01-18T11:05:06.949Z",
+    "read": false
+  },
+  {
+    "id": "9a5ddcf4-b1b9-4837-b4a2-11e06dcf0f11",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "tweetId": "4792bc9c-1969-4120-8336-0f0c2e48567b",
+    "createdAt": "2026-01-18T11:22:20.035Z",
+    "read": true
+  },
+  {
+    "id": "68b2e00b-4c1c-4bd2-95bb-36ebe5a8fc67",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "tweetId": "4792bc9c-1969-4120-8336-0f0c2e48567b",
+    "createdAt": "2026-01-18T10:52:44.489Z",
+    "read": false
+  },
+  {
+    "id": "1c523d5e-5d56-41e5-bbbf-54174f10e71d",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "tweetId": "4792bc9c-1969-4120-8336-0f0c2e48567b",
+    "createdAt": "2026-01-18T11:39:09.978Z",
+    "read": false
+  },
+  {
+    "id": "3230a678-d9e8-4c03-8ccf-14d2e1d8a32c",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "fromUserId": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "tweetId": "4205d68b-0b76-478b-ae5b-e0fad0db7c90",
+    "createdAt": "2026-01-11T09:26:41.150Z",
+    "read": false
+  },
+  {
+    "id": "d558997e-aee4-4444-8289-1151f20a52fe",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "fromUserId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "tweetId": "6e6fffaf-3a34-4e0c-ae10-f13cde321f0d",
+    "createdAt": "2026-01-09T11:35:19.105Z",
+    "read": true
+  },
+  {
+    "id": "b1f797a5-cd4b-4943-bd97-543075badf29",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "fromUserId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "tweetId": "6e6fffaf-3a34-4e0c-ae10-f13cde321f0d",
+    "createdAt": "2026-01-09T12:12:59.526Z",
+    "read": false
+  },
+  {
+    "id": "a20c5e02-1ce6-4d24-81a1-a0b65e819933",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "fromUserId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "tweetId": "6e6fffaf-3a34-4e0c-ae10-f13cde321f0d",
+    "createdAt": "2026-01-09T11:26:13.754Z",
+    "read": false
+  },
+  {
+    "id": "70610349-9b71-47e4-a002-8d5679862526",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "fromUserId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "tweetId": "6e6fffaf-3a34-4e0c-ae10-f13cde321f0d",
+    "createdAt": "2026-01-09T12:19:22.524Z",
+    "read": true
+  },
+  {
+    "id": "a3826038-71e6-4ebe-a0e8-ef16c09ed215",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "fromUserId": "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+    "tweetId": "6e6fffaf-3a34-4e0c-ae10-f13cde321f0d",
+    "createdAt": "2026-01-09T12:19:14.420Z",
+    "read": false
+  },
+  {
+    "id": "8dd678e1-8ea0-4d3b-9e33-51492c749088",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "fromUserId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "tweetId": "780760bf-544c-41da-9815-0c1187eac5f4",
+    "createdAt": "2026-01-03T13:03:18.132Z",
+    "read": false
+  },
+  {
+    "id": "c1e2b4c9-9bde-4f50-b76f-d548e242949a",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "780760bf-544c-41da-9815-0c1187eac5f4",
+    "createdAt": "2026-01-03T12:31:22.801Z",
+    "read": false
+  },
+  {
+    "id": "25a8cf20-697a-4624-8cb2-ed81b2f0910d",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "fromUserId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "tweetId": "780760bf-544c-41da-9815-0c1187eac5f4",
+    "createdAt": "2026-01-03T12:53:21.555Z",
+    "read": false
+  },
+  {
+    "id": "2f7ba8bc-976d-4ac1-b861-5d5d4ab773f1",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "fromUserId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "tweetId": "780760bf-544c-41da-9815-0c1187eac5f4",
+    "createdAt": "2026-01-03T13:11:12.902Z",
+    "read": false
+  },
+  {
+    "id": "e8233ce7-c72a-4efb-b0d1-9130eafa636d",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "fromUserId": "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+    "tweetId": "780760bf-544c-41da-9815-0c1187eac5f4",
+    "createdAt": "2026-01-03T13:17:41.398Z",
+    "read": true
+  },
+  {
+    "id": "4167b73a-aaa6-464a-89bd-4cbe56769f74",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "fromUserId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "tweetId": "780760bf-544c-41da-9815-0c1187eac5f4",
+    "createdAt": "2026-01-03T12:31:31.960Z",
+    "read": true
+  },
+  {
+    "id": "89770753-e1c1-4be3-9c1a-b4fe0329f4d7",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "tweetId": "922a0652-83d3-4ba9-bbcc-7526c599f626",
+    "createdAt": "2026-01-03T04:40:01.130Z",
+    "read": false
+  },
+  {
+    "id": "eb9fb1d4-77b4-4711-ab7a-4a8f5f8d8700",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "tweetId": "922a0652-83d3-4ba9-bbcc-7526c599f626",
+    "createdAt": "2026-01-03T05:12:15.995Z",
+    "read": true
+  },
+  {
+    "id": "86271842-729b-44eb-81b5-08c9708ebf9c",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "tweetId": "922a0652-83d3-4ba9-bbcc-7526c599f626",
+    "createdAt": "2026-01-03T04:59:55.296Z",
+    "read": false
+  },
+  {
+    "id": "06fcc2ff-1e68-4bc7-aec7-2caec3788b83",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "922a0652-83d3-4ba9-bbcc-7526c599f626",
+    "createdAt": "2026-01-03T05:01:43.209Z",
+    "read": false
+  },
+  {
+    "id": "75de7615-45b7-45e8-b7e3-f782532e6b99",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "tweetId": "6c2293d2-574f-4ae3-a381-bbe284b7b55a",
+    "createdAt": "2025-12-25T15:49:42.123Z",
+    "read": false
+  },
+  {
+    "id": "211d06f0-9b46-456f-bee8-0a0ab13f39cd",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "6c2293d2-574f-4ae3-a381-bbe284b7b55a",
+    "createdAt": "2025-12-25T15:25:58.598Z",
+    "read": false
+  },
+  {
+    "id": "7ed01141-0c8d-48ca-98d4-f8022ccf24ef",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "tweetId": "6c2293d2-574f-4ae3-a381-bbe284b7b55a",
+    "createdAt": "2025-12-25T15:14:28.563Z",
+    "read": true
+  },
+  {
+    "id": "552621ff-c4b1-416e-b7c3-965644e71a16",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "tweetId": "6c2293d2-574f-4ae3-a381-bbe284b7b55a",
+    "createdAt": "2025-12-25T15:07:25.937Z",
+    "read": true
+  },
+  {
+    "id": "1ff00518-015b-4b97-92c1-629f4621e3ce",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "3356f405-238d-4853-9179-ffc16ac6fa0f",
+    "createdAt": "2025-12-23T18:25:58.451Z",
+    "read": false
+  },
+  {
+    "id": "347ac0cc-6de0-43b7-9acb-811c37680615",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "tweetId": "3356f405-238d-4853-9179-ffc16ac6fa0f",
+    "createdAt": "2025-12-23T18:29:59.081Z",
+    "read": true
+  },
+  {
+    "id": "a28db12f-f329-40f0-95b2-f5444a8fc179",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "tweetId": "3356f405-238d-4853-9179-ffc16ac6fa0f",
+    "createdAt": "2025-12-23T19:16:31.695Z",
+    "read": true
+  },
+  {
+    "id": "eceb1bfb-e31b-4da6-b262-1b654ed199b1",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "3356f405-238d-4853-9179-ffc16ac6fa0f",
+    "createdAt": "2025-12-23T18:30:46.289Z",
+    "read": true
+  },
+  {
+    "id": "fa7d2e4b-c5b8-48fe-aa89-33987650a2a7",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "tweetId": "3356f405-238d-4853-9179-ffc16ac6fa0f",
+    "createdAt": "2025-12-23T19:10:16.693Z",
+    "read": true
+  },
+  {
+    "id": "ebf4cc02-df2b-46a8-9a35-af3ccdb778a4",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "tweetId": "dc56a36b-a6f7-45b8-b2be-0605d5564c84",
+    "createdAt": "2025-12-20T12:23:31.842Z",
+    "read": true
+  },
+  {
+    "id": "0a2c66cb-140d-4153-9c37-fdb8360ebe7b",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "tweetId": "dc56a36b-a6f7-45b8-b2be-0605d5564c84",
+    "createdAt": "2025-12-20T12:19:22.840Z",
+    "read": true
+  },
+  {
+    "id": "2691942c-6505-47ad-acf1-5b58bb96a566",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "tweetId": "dc56a36b-a6f7-45b8-b2be-0605d5564c84",
+    "createdAt": "2025-12-20T12:36:17.277Z",
+    "read": true
+  },
+  {
+    "id": "ade0ec06-1f6e-4f89-a7c1-8838b94045d6",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "dc56a36b-a6f7-45b8-b2be-0605d5564c84",
+    "createdAt": "2025-12-20T12:40:50.935Z",
+    "read": true
+  },
+  {
+    "id": "158f1ee9-1415-489e-8beb-8502a942e8c6",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "tweetId": "dc56a36b-a6f7-45b8-b2be-0605d5564c84",
+    "createdAt": "2025-12-20T12:48:57.182Z",
+    "read": false
+  },
+  {
+    "id": "04bdbed4-f90a-4daa-b4ed-c87cc62b49f3",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "7cad2390-70fb-4409-adf4-a679b8b728df",
+    "createdAt": "2025-12-20T08:41:39.100Z",
+    "read": false
+  },
+  {
+    "id": "6e173f07-bd39-4ae8-9dcd-ec8f06ae795d",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "tweetId": "7cad2390-70fb-4409-adf4-a679b8b728df",
+    "createdAt": "2025-12-20T08:34:11.634Z",
+    "read": true
+  },
+  {
+    "id": "739af3fc-1626-4054-b339-e544db0a9487",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "tweetId": "7cad2390-70fb-4409-adf4-a679b8b728df",
+    "createdAt": "2025-12-20T08:22:03.322Z",
+    "read": false
+  },
+  {
+    "id": "87a18471-8516-4eea-bc10-36947d1957f4",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "tweetId": "7cad2390-70fb-4409-adf4-a679b8b728df",
+    "createdAt": "2025-12-20T09:07:59.390Z",
+    "read": true
+  },
+  {
+    "id": "fe22f577-bfdc-453e-885a-797207bc7493",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "tweetId": "7cad2390-70fb-4409-adf4-a679b8b728df",
+    "createdAt": "2025-12-20T08:27:03.221Z",
+    "read": true
+  },
+  {
+    "id": "18182172-dfb3-4b70-94dd-b9f9bac31c40",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "fromUserId": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "tweetId": "7faaf439-1517-4a42-95d6-e200beb3e697",
+    "createdAt": "2025-12-16T08:08:46.427Z",
+    "read": false
+  },
+  {
+    "id": "184d6759-eb50-4dc8-be48-ecdff1e99f44",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "fromUserId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "tweetId": "3139b81f-5fa8-417a-90e3-601aa2c8ed44",
+    "createdAt": "2025-12-16T04:55:57.040Z",
+    "read": true
+  },
+  {
+    "id": "85d4424b-c0ec-43d8-bc9d-bedb4d25fbd6",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "fromUserId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "tweetId": "3139b81f-5fa8-417a-90e3-601aa2c8ed44",
+    "createdAt": "2025-12-16T05:15:59.053Z",
+    "read": true
+  },
+  {
+    "id": "4c1ac5c5-fa92-41b5-a69f-66402132996f",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "3139b81f-5fa8-417a-90e3-601aa2c8ed44",
+    "createdAt": "2025-12-16T05:11:19.441Z",
+    "read": false
+  },
+  {
+    "id": "2e6b91d7-a982-4338-9d6e-e19ea0075b70",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "170054c1-8db8-4fcf-a27e-c7e1b6261f3a",
+    "createdAt": "2025-12-15T05:27:54.452Z",
+    "read": true
+  },
+  {
+    "id": "798e35f9-1d69-4bfc-8e6e-3fa92ba5d21b",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "170054c1-8db8-4fcf-a27e-c7e1b6261f3a",
+    "createdAt": "2025-12-15T05:17:41.450Z",
+    "read": true
+  },
+  {
+    "id": "f29aae8c-b7b7-49e8-92d4-940e5d035cbf",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "fromUserId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "tweetId": "621bf1ea-41f3-4cb6-b2c3-f34dbb610d32",
+    "createdAt": "2025-12-15T01:26:44.223Z",
+    "read": false
+  },
+  {
+    "id": "2178a419-9116-4070-bcf5-c10814a95d22",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "fromUserId": "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+    "tweetId": "621bf1ea-41f3-4cb6-b2c3-f34dbb610d32",
+    "createdAt": "2025-12-15T01:25:28.911Z",
+    "read": false
+  },
+  {
+    "id": "ad755020-091f-4503-92e5-7750dc3f4338",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "621bf1ea-41f3-4cb6-b2c3-f34dbb610d32",
+    "createdAt": "2025-12-15T01:55:25.003Z",
+    "read": true
+  },
+  {
+    "id": "55b38d56-2691-45af-a022-84f9482d7871",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "7e10e255-332c-4cb0-bfb2-b821dee9362a",
+    "createdAt": "2025-12-15T00:18:55.158Z",
+    "read": false
+  },
+  {
+    "id": "f1fdf60f-b7ad-4206-aa69-f90912689c27",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "tweetId": "7e10e255-332c-4cb0-bfb2-b821dee9362a",
+    "createdAt": "2025-12-15T00:32:50.586Z",
+    "read": true
+  },
+  {
+    "id": "d14be84d-61ee-4463-9f69-0c7686f7c05a",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "tweetId": "7e10e255-332c-4cb0-bfb2-b821dee9362a",
+    "createdAt": "2025-12-15T00:50:43.271Z",
+    "read": true
+  },
+  {
+    "id": "ff9be2f6-856b-4f83-9b31-c02b84ee4a98",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "tweetId": "7e10e255-332c-4cb0-bfb2-b821dee9362a",
+    "createdAt": "2025-12-15T00:21:10.774Z",
+    "read": true
+  },
+  {
+    "id": "46584521-5313-48de-a401-d32891ab6046",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "tweetId": "7e10e255-332c-4cb0-bfb2-b821dee9362a",
+    "createdAt": "2025-12-15T00:50:21.010Z",
+    "read": true
+  },
+  {
+    "id": "f553f86c-d683-42b4-b3b4-3d730c74eddc",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "fromUserId": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "tweetId": "d1c11162-8f0c-40f3-9473-7434ac63183d",
+    "createdAt": "2025-12-14T11:30:59.415Z",
+    "read": true
+  },
+  {
+    "id": "1c250a15-d687-4a70-9e0d-7452bac7f170",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "d1c11162-8f0c-40f3-9473-7434ac63183d",
+    "createdAt": "2025-12-14T12:15:46.982Z",
+    "read": false
+  },
+  {
+    "id": "866a9ad8-134f-44a2-a1e8-1e87058653de",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "tweetId": "22c5186d-8651-4911-b485-2bd3e7114db8",
+    "createdAt": "2025-12-14T10:03:20.367Z",
+    "read": true
+  },
+  {
+    "id": "e19fe656-74f5-4568-83da-8b1e83350826",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "tweetId": "22c5186d-8651-4911-b485-2bd3e7114db8",
+    "createdAt": "2025-12-14T10:23:40.889Z",
+    "read": true
+  },
+  {
+    "id": "69ed5954-daf5-4b90-abec-25ef100aac55",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+    "tweetId": "22c5186d-8651-4911-b485-2bd3e7114db8",
+    "createdAt": "2025-12-14T10:26:39.090Z",
+    "read": true
+  },
+  {
+    "id": "e1a7bd82-a514-4417-88c9-eb8e5ced3ebf",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "tweetId": "752f0f9f-0296-4f1c-93f3-309bb39c60cd",
+    "createdAt": "2025-12-03T15:36:00.854Z",
+    "read": false
+  },
+  {
+    "id": "a83dea85-7fb9-4ba8-853e-da2b2c8dd595",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "tweetId": "752f0f9f-0296-4f1c-93f3-309bb39c60cd",
+    "createdAt": "2025-12-03T15:37:06.214Z",
+    "read": true
+  },
+  {
+    "id": "f509296a-22cf-4802-b967-448ba527e446",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "tweetId": "752f0f9f-0296-4f1c-93f3-309bb39c60cd",
+    "createdAt": "2025-12-03T15:43:55.403Z",
+    "read": true
+  },
+  {
+    "id": "dd82dada-dc26-455c-a5f2-1c85a24e192a",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "tweetId": "752f0f9f-0296-4f1c-93f3-309bb39c60cd",
+    "createdAt": "2025-12-03T15:03:54.000Z",
+    "read": true
+  },
+  {
+    "id": "0a230e14-2687-49a1-bcab-139df0777e3b",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "tweetId": "752f0f9f-0296-4f1c-93f3-309bb39c60cd",
+    "createdAt": "2025-12-03T15:14:34.653Z",
+    "read": false
+  },
+  {
+    "id": "8006489a-682b-4d98-986a-d143c7d8a6f7",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "752f0f9f-0296-4f1c-93f3-309bb39c60cd",
+    "createdAt": "2025-12-03T15:12:41.964Z",
+    "read": true
+  },
+  {
+    "id": "f8945bd3-0770-4362-8e63-77c4f31e5a88",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "tweetId": "04be782e-7a77-481a-a6ad-3b10b18658fa",
+    "createdAt": "2025-12-02T17:09:57.338Z",
+    "read": true
+  },
+  {
+    "id": "253b9364-0474-4063-909b-67a3e0a90652",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "tweetId": "04be782e-7a77-481a-a6ad-3b10b18658fa",
+    "createdAt": "2025-12-02T16:29:41.096Z",
+    "read": false
+  },
+  {
+    "id": "8717302b-7683-42bc-87af-decafec16f82",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "04be782e-7a77-481a-a6ad-3b10b18658fa",
+    "createdAt": "2025-12-02T16:41:22.415Z",
+    "read": false
+  },
+  {
+    "id": "13dcde03-3df3-4b78-8463-19e0603e5493",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "tweetId": "b18f628a-3a34-478e-ac97-62ed7f475d1c",
+    "createdAt": "2025-11-24T03:19:42.762Z",
+    "read": true
+  },
+  {
+    "id": "a43e898d-19d5-4fc9-bf40-1e17e6320622",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "b18f628a-3a34-478e-ac97-62ed7f475d1c",
+    "createdAt": "2025-11-24T03:09:07.885Z",
+    "read": true
+  },
+  {
+    "id": "e074549c-48db-424a-9917-3ac3953dfccb",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "tweetId": "b18f628a-3a34-478e-ac97-62ed7f475d1c",
+    "createdAt": "2025-11-24T04:03:19.298Z",
+    "read": true
+  },
+  {
+    "id": "5268425f-7df0-4777-a96e-02f4440ac730",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "b18f628a-3a34-478e-ac97-62ed7f475d1c",
+    "createdAt": "2025-11-24T03:27:58.407Z",
+    "read": true
+  },
+  {
+    "id": "8f0caa21-9410-4a40-87b2-3f37650c5660",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "tweetId": "b18f628a-3a34-478e-ac97-62ed7f475d1c",
+    "createdAt": "2025-11-24T03:30:27.162Z",
+    "read": true
+  },
+  {
+    "id": "1cc55c79-487c-426c-b88e-4bb5678215d3",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "tweetId": "b18f628a-3a34-478e-ac97-62ed7f475d1c",
+    "createdAt": "2025-11-24T03:22:38.654Z",
+    "read": true
+  },
+  {
+    "id": "d3ff98bc-41af-42ca-b0dc-653ddbdd7eb4",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "tweetId": "cc0a6c81-6acb-405f-83e1-0eddc7659b00",
+    "createdAt": "2025-11-23T18:03:21.429Z",
+    "read": true
+  },
+  {
+    "id": "703dc3ca-eda9-4ee0-840a-0baf22522ea7",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "tweetId": "cc0a6c81-6acb-405f-83e1-0eddc7659b00",
+    "createdAt": "2025-11-23T17:54:36.322Z",
+    "read": true
+  },
+  {
+    "id": "9a49f343-25fe-40e5-9bd6-32c0bdeb7b36",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "tweetId": "cc0a6c81-6acb-405f-83e1-0eddc7659b00",
+    "createdAt": "2025-11-23T18:49:09.999Z",
+    "read": true
+  },
+  {
+    "id": "cfd9d3be-b1df-45c3-87fb-2a4608cd85c4",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+    "tweetId": "cc0a6c81-6acb-405f-83e1-0eddc7659b00",
+    "createdAt": "2025-11-23T18:29:43.616Z",
+    "read": false
+  },
+  {
+    "id": "2a20af98-e3ef-4a0e-8379-a66b847c58a7",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "tweetId": "cc0a6c81-6acb-405f-83e1-0eddc7659b00",
+    "createdAt": "2025-11-23T18:29:04.508Z",
+    "read": true
+  },
+  {
+    "id": "bdef57d5-6d9f-49ad-aec2-9b72e801586c",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "fromUserId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "tweetId": "06ce8c61-488b-4f7a-8d7d-3ee69fffdfa0",
+    "createdAt": "2025-11-23T16:22:36.544Z",
+    "read": true
+  },
+  {
+    "id": "2f95a89c-4d5e-42f7-aa3f-37e0ce46f4b3",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "06ce8c61-488b-4f7a-8d7d-3ee69fffdfa0",
+    "createdAt": "2025-11-23T15:48:31.610Z",
+    "read": false
+  },
+  {
+    "id": "e0b1b535-4708-43fb-8382-5c39b29c5de0",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "fromUserId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "tweetId": "06ce8c61-488b-4f7a-8d7d-3ee69fffdfa0",
+    "createdAt": "2025-11-23T15:42:12.419Z",
+    "read": false
+  },
+  {
+    "id": "0525ecc8-de9e-49d8-bea8-23548146c627",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "fromUserId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "tweetId": "06ce8c61-488b-4f7a-8d7d-3ee69fffdfa0",
+    "createdAt": "2025-11-23T16:28:03.776Z",
+    "read": true
+  },
+  {
+    "id": "84d2438a-6620-4165-accd-9c46f516bbf2",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "fromUserId": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "tweetId": "06ce8c61-488b-4f7a-8d7d-3ee69fffdfa0",
+    "createdAt": "2025-11-23T15:50:37.547Z",
+    "read": true
+  },
+  {
+    "id": "7d8fe45b-9b6f-4423-9033-f2851ad87ff4",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "fromUserId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "tweetId": "06ce8c61-488b-4f7a-8d7d-3ee69fffdfa0",
+    "createdAt": "2025-11-23T16:13:54.193Z",
+    "read": true
+  },
+  {
+    "id": "a4eac227-e668-48fd-a28e-f461cbfd17ca",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "43aa8d5e-fa83-4872-a35b-5f27b084d6bb",
+    "createdAt": "2025-11-22T05:09:52.721Z",
+    "read": false
+  },
+  {
+    "id": "57ff9cce-06d9-4d64-92a2-3e09245b40d4",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "tweetId": "43aa8d5e-fa83-4872-a35b-5f27b084d6bb",
+    "createdAt": "2025-11-22T04:48:42.271Z",
+    "read": true
+  },
+  {
+    "id": "170f5382-e358-4803-87bf-51534dc6b98f",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "25af4cf0-b75f-4580-9cd3-2fe5534e3ea3",
+    "createdAt": "2025-11-21T15:31:46.478Z",
+    "read": true
+  },
+  {
+    "id": "fc8c46cd-3274-47a1-baf7-702b4a5c1a99",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "25af4cf0-b75f-4580-9cd3-2fe5534e3ea3",
+    "createdAt": "2025-11-21T15:22:00.562Z",
+    "read": true
+  },
+  {
+    "id": "d11fedaf-3a28-4b88-8bee-23af480e9935",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "tweetId": "743a06c2-a741-4bd7-9050-7cde794ffdd7",
+    "createdAt": "2025-11-21T10:21:07.172Z",
+    "read": true
+  },
+  {
+    "id": "bf92d2c7-30e0-436d-ae3b-bbd3fe7a7d85",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "tweetId": "743a06c2-a741-4bd7-9050-7cde794ffdd7",
+    "createdAt": "2025-11-21T09:57:57.938Z",
+    "read": true
+  },
+  {
+    "id": "dca380a0-811b-43bc-9cb6-bb4a56cae1d6",
+    "type": "reaction",
+    "reaction": "lightbulb",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "tweetId": "743a06c2-a741-4bd7-9050-7cde794ffdd7",
+    "createdAt": "2025-11-21T10:25:40.348Z",
+    "read": true
+  },
+  {
+    "id": "a0e24467-5c87-481b-98be-5acabf1c7b99",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "tweetId": "743a06c2-a741-4bd7-9050-7cde794ffdd7",
+    "createdAt": "2025-11-21T09:53:45.861Z",
+    "read": true
+  },
+  {
+    "id": "d5fbd024-cd68-47c0-a7a7-600a67b7eabe",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "743a06c2-a741-4bd7-9050-7cde794ffdd7",
+    "createdAt": "2025-11-21T10:32:14.952Z",
+    "read": true
+  },
+  {
+    "id": "d59ef33f-4791-42f6-8007-7cd92f49e1af",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "tweetId": "743a06c2-a741-4bd7-9050-7cde794ffdd7",
+    "createdAt": "2025-11-21T09:56:17.542Z",
+    "read": true
+  },
+  {
+    "id": "4b67adf4-b35c-4b17-b17b-30f0019dbcd3",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "tweetId": "10fa7b1e-95a3-4602-8536-2dde819d86fc",
+    "createdAt": "2025-11-18T13:52:53.178Z",
+    "read": true
+  },
+  {
+    "id": "6a05de1b-b92a-4f76-b620-ac5e2c513563",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "tweetId": "10fa7b1e-95a3-4602-8536-2dde819d86fc",
+    "createdAt": "2025-11-18T14:33:48.811Z",
+    "read": false
+  },
+  {
+    "id": "698ece79-3b0c-4d0f-adea-abeabde1ab8c",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "10fa7b1e-95a3-4602-8536-2dde819d86fc",
+    "createdAt": "2025-11-18T14:34:58.275Z",
+    "read": true
+  },
+  {
+    "id": "0e544690-fc2f-4862-93f1-c976859e82a5",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "tweetId": "351ecf7d-6b9f-45df-9a4a-6bc0cf1d960a",
+    "createdAt": "2025-11-18T10:56:51.763Z",
+    "read": true
+  },
+  {
+    "id": "5fba6d95-f057-4f20-b03d-cc9db591c02b",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "fromUserId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "tweetId": "351ecf7d-6b9f-45df-9a4a-6bc0cf1d960a",
+    "createdAt": "2025-11-18T10:38:04.407Z",
+    "read": false
+  },
+  {
+    "id": "c59a4333-2a6e-42d8-bb93-2df9947db9fc",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "tweetId": "593660b7-bb84-4c5c-a261-3f724b3924e9",
+    "createdAt": "2025-11-17T19:11:40.572Z",
+    "read": true
+  },
+  {
+    "id": "0471e59a-3ed1-4de2-8166-8d1a712ea994",
+    "type": "reaction",
+    "reaction": "rocket",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "tweetId": "593660b7-bb84-4c5c-a261-3f724b3924e9",
+    "createdAt": "2025-11-17T19:46:59.600Z",
+    "read": true
+  },
+  {
+    "id": "849ee147-93d9-4e63-903e-9af63b7d7590",
+    "type": "reaction",
+    "reaction": "laugh",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "tweetId": "593660b7-bb84-4c5c-a261-3f724b3924e9",
+    "createdAt": "2025-11-17T19:19:15.052Z",
+    "read": false
+  },
+  {
+    "id": "efa40841-a157-42fe-8bbb-643f01352d6a",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "tweetId": "593660b7-bb84-4c5c-a261-3f724b3924e9",
+    "createdAt": "2025-11-17T19:41:00.768Z",
+    "read": true
+  },
+  {
+    "id": "9e667670-9af9-4a82-97b4-a0534bb66061",
+    "type": "reaction",
+    "reaction": "fire",
+    "userId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "fromUserId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "tweetId": "f86a2e1e-fedd-41a5-9a23-aeaaef8b2b5f",
+    "createdAt": "2025-11-17T16:16:41.161Z",
+    "read": true
+  },
+  {
+    "id": "a6a2f33f-45aa-47b9-9b9f-45ee46dc40f0",
+    "type": "reaction",
+    "reaction": "heart",
+    "userId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "fromUserId": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "tweetId": "f86a2e1e-fedd-41a5-9a23-aeaaef8b2b5f",
+    "createdAt": "2025-11-17T17:03:54.227Z",
+    "read": true
+  },
+  {
+    "id": "e2bc4b84-e7ed-4f87-963b-9cf7757bfa91",
+    "type": "reaction",
+    "reaction": "mindblown",
+    "userId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "fromUserId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "tweetId": "f86a2e1e-fedd-41a5-9a23-aeaaef8b2b5f",
+    "createdAt": "2025-11-17T16:47:08.903Z",
+    "read": false
+  },
+  {
+    "id": "44bb277f-dbf5-480e-8874-ab1882bb75b3",
+    "type": "follow",
+    "userId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "fromUserId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "createdAt": "2026-01-14T05:17:40.096Z",
+    "read": false
+  },
+  {
+    "id": "f97cd91d-41e6-453e-9c30-bdfccfd96002",
+    "type": "follow",
+    "userId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "fromUserId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "createdAt": "2025-06-02T05:32:33.900Z",
+    "read": true
+  },
+  {
+    "id": "08646ae3-dff7-43d7-ba9b-6a8b70ba5ec3",
+    "type": "follow",
+    "userId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "fromUserId": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "createdAt": "2025-03-24T04:50:12.531Z",
+    "read": true
+  },
+  {
+    "id": "130a8a9d-e4c0-4617-9192-02a79bc9cf05",
+    "type": "follow",
+    "userId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "fromUserId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "createdAt": "2024-10-07T01:04:22.079Z",
+    "read": false
+  },
+  {
+    "id": "92af71f4-7365-4916-b2bd-b41ca3fd9d94",
+    "type": "follow",
+    "userId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "fromUserId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "createdAt": "2025-02-12T07:36:14.210Z",
+    "read": false
+  },
+  {
+    "id": "dd996337-d731-4bda-98c3-97204827e958",
+    "type": "follow",
+    "userId": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "fromUserId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "createdAt": "2025-09-01T02:03:22.751Z",
+    "read": false
+  },
+  {
+    "id": "f4564557-e6cc-4c5e-9f85-d8c933f7a548",
+    "type": "follow",
+    "userId": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "fromUserId": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "createdAt": "2024-07-02T23:26:20.036Z",
+    "read": false
+  },
+  {
+    "id": "8aaf991e-2972-4dce-b779-77856897af86",
+    "type": "follow",
+    "userId": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "fromUserId": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "createdAt": "2025-10-23T17:45:03.672Z",
+    "read": false
+  },
+  {
+    "id": "32176415-846c-4ea5-a2bf-7455995b31a4",
+    "type": "follow",
+    "userId": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "fromUserId": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "createdAt": "2025-09-05T11:17:24.787Z",
+    "read": true
+  },
+  {
+    "id": "136ae210-029b-4573-a828-a1890a19bf4d",
+    "type": "follow",
+    "userId": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "fromUserId": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "createdAt": "2025-06-23T17:49:14.336Z",
+    "read": false
+  }
+]

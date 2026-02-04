@@ -1,0 +1,35 @@
+{
+  "name": "chirp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full-featured Twitter clone with vibes, reactions, and achievements",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@chirp/api & npm run dev --workspace=@chirp/web",
+    "dev:api": "npm run dev --workspace=@chirp/api",
+    "dev:web": "npm run dev --workspace=@chirp/web",
+    "build": "npm run build --workspaces",
+    "build:shared": "npm run build --workspace=@chirp/shared",
+    "build:api": "npm run build --workspace=@chirp/api",
+    "build:web": "npm run build --workspace=@chirp/web",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "db:generate": "npm run db:generate --workspace=@chirp/api",
+    "db:migrate": "npm run db:migrate --workspace=@chirp/api",
+    "db:push": "npm run db:push --workspace=@chirp/api",
+    "db:seed": "npm run db:seed --workspace=@chirp/api",
+    "db:studio": "npm run db:studio --workspace=@chirp/api",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "setup": "npm install && npm run build:shared && npm run db:generate && npm run db:push && npm run db:seed"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

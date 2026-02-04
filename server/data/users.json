@@ -1,0 +1,590 @@
+[
+  {
+    "id": "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+    "username": "elonmusk",
+    "email": "elonmusk@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Elon Musk",
+    "bio": "🚀 Mars & Cars, Tunnels & Tweets",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=elonmusk",
+    "banner": "https://images.unsplash.com/photo-1550004087793?w=600&h=200",
+    "location": "Mars",
+    "website": "https://elonmusk.dev",
+    "joinedAt": "2022-09-20T06:53:10.495Z",
+    "followers": [
+      "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+      "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "f8889469-07b3-4d0e-a18a-c8163f92704d"
+    ],
+    "following": [
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp",
+      "night_owl"
+    ],
+    "streak": 42,
+    "lastPostDate": "2026-02-04T05:02:13.594Z",
+    "totalReactions": 84,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+    "username": "naval",
+    "email": "naval@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Naval",
+    "bio": "🧘 Angel investor, entrepreneur. Seeking wisdom.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=naval",
+    "banner": "https://images.unsplash.com/photo-1550008217961?w=600&h=200",
+    "location": "San Francisco",
+    "website": "https://naval.dev",
+    "joinedAt": "2022-11-27T09:26:58.973Z",
+    "followers": [
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830"
+    ],
+    "following": [
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp",
+      "night_owl",
+      "code_wizard"
+    ],
+    "streak": 128,
+    "lastPostDate": "2026-02-04T05:02:13.594Z",
+    "totalReactions": 74,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "0df89047-8e12-488d-aa4c-786520857a1e",
+    "username": "paulg",
+    "email": "paulg@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Paul Graham",
+    "bio": "📝 Founder of Y Combinator. Essays at paulgraham.com",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=paulg",
+    "banner": "https://images.unsplash.com/photo-1550000626970?w=600&h=200",
+    "location": "UK",
+    "website": "https://paulg.dev",
+    "joinedAt": "2021-03-30T03:26:16.119Z",
+    "followers": [
+      "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "f8889469-07b3-4d0e-a18a-c8163f92704d"
+    ],
+    "following": [
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+      "f8889469-07b3-4d0e-a18a-c8163f92704d",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "6101b36e-8db9-4e62-8b88-15ce91f10c78"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp",
+      "night_owl"
+    ],
+    "streak": 67,
+    "lastPostDate": "2026-02-04T05:02:13.594Z",
+    "totalReactions": 146,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+    "username": "sama",
+    "email": "sama@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Sam Altman",
+    "bio": "🤖 CEO of OpenAI",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=sama",
+    "banner": "https://images.unsplash.com/photo-1550000682875?w=600&h=200",
+    "location": "San Francisco",
+    "website": "https://sama.dev",
+    "joinedAt": "2020-01-10T02:41:31.500Z",
+    "followers": [
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830"
+    ],
+    "following": [
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "2c201b14-1eef-475e-b6a9-1e7d1b4649ba"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp"
+    ],
+    "streak": 33,
+    "lastPostDate": "2026-02-04T05:02:13.594Z",
+    "totalReactions": 132,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+    "username": "lexfridman",
+    "email": "lexfridman@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Lex Fridman",
+    "bio": "🎙️ Host of Lex Fridman Podcast. AI researcher. Love > Fear",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=lexfridman",
+    "banner": "https://images.unsplash.com/photo-1550002976299?w=600&h=200",
+    "location": "Austin, TX",
+    "website": "https://lexfridman.dev",
+    "joinedAt": "2020-07-26T20:18:26.649Z",
+    "followers": [
+      "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830"
+    ],
+    "following": [
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp"
+    ],
+    "streak": 89,
+    "lastPostDate": "2026-02-04T05:02:13.594Z",
+    "totalReactions": 124,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "1984547c-443c-49dc-825a-3d166cf0a2a2",
+    "username": "pmarca",
+    "email": "pmarca@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Marc Andreessen",
+    "bio": "💰 Cofounder of a16z, Netscape, Mosaic. Building the future.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=pmarca",
+    "banner": "https://images.unsplash.com/photo-1550004686075?w=600&h=200",
+    "location": "Menlo Park",
+    "website": "https://pmarca.dev",
+    "joinedAt": "2023-10-05T03:32:24.621Z",
+    "followers": [
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e"
+    ],
+    "following": [
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+      "f8889469-07b3-4d0e-a18a-c8163f92704d",
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e",
+      "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a"
+    ],
+    "achievements": [
+      "streak_week",
+      "first_chirp"
+    ],
+    "streak": 15,
+    "lastPostDate": "2026-02-04T05:02:13.594Z",
+    "totalReactions": 122,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+    "username": "balajis",
+    "email": "balajis@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Balaji Srinivasan",
+    "bio": "📖 Author of The Network State. Tech optimist.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=balajis",
+    "banner": "https://images.unsplash.com/photo-1550003094833?w=600&h=200",
+    "location": "The Cloud",
+    "website": "https://balajis.dev",
+    "joinedAt": "2020-04-11T06:13:46.513Z",
+    "followers": [
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a"
+    ],
+    "following": [
+      "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e",
+      "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp"
+    ],
+    "streak": 203,
+    "lastPostDate": "2026-02-04T05:02:13.594Z",
+    "totalReactions": 60,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+    "username": "cassidoo",
+    "email": "cassidoo@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Cassidy Williams",
+    "bio": "💻 CTO at Contenda. Making dev content fun!",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=cassidoo",
+    "banner": "https://images.unsplash.com/photo-1550009005037?w=600&h=200",
+    "location": "Chicago",
+    "website": "https://cassidoo.dev",
+    "joinedAt": "2021-04-22T02:05:54.972Z",
+    "followers": [
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e"
+    ],
+    "following": [
+      "573657ec-f5c0-499f-a510-9e9144a31c2e",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+      "f8889469-07b3-4d0e-a18a-c8163f92704d"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp",
+      "night_owl"
+    ],
+    "streak": 156,
+    "lastPostDate": "2026-02-04T05:02:13.595Z",
+    "totalReactions": 83,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "83c1b042-3041-41c6-8cb1-650ba98826ce",
+    "username": "dan_abramov",
+    "email": "dan_abramov@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Dan Abramov",
+    "bio": "⚛️ Working on React. Making sense of things.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=dan_abramov",
+    "banner": "https://images.unsplash.com/photo-1550007455419?w=600&h=200",
+    "location": "London",
+    "website": "https://dan_abramov.dev",
+    "joinedAt": "2021-10-10T13:28:49.951Z",
+    "followers": [
+      "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+      "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+      "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e",
+      "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830"
+    ],
+    "following": [
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+      "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp"
+    ],
+    "streak": 78,
+    "lastPostDate": "2026-02-04T05:02:13.595Z",
+    "totalReactions": 129,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+    "username": "sarah_edo",
+    "email": "sarah_edo@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Sarah Drasner",
+    "bio": "🎨 Director of Engineering. Author. Speaker. Animation lover.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=sarah_edo",
+    "banner": "https://images.unsplash.com/photo-1550002971716?w=600&h=200",
+    "location": "Denver",
+    "website": "https://sarah_edo.dev",
+    "joinedAt": "2021-01-26T12:26:54.663Z",
+    "followers": [
+      "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830"
+    ],
+    "following": [
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+      "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+      "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+      "f8889469-07b3-4d0e-a18a-c8163f92704d"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp",
+      "night_owl"
+    ],
+    "streak": 45,
+    "lastPostDate": "2026-02-04T05:02:13.595Z",
+    "totalReactions": 135,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "f8889469-07b3-4d0e-a18a-c8163f92704d",
+    "username": "kelseyhightower",
+    "email": "kelseyhightower@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Kelsey Hightower",
+    "bio": "☁️ Minimalist. Making Kubernetes accessible.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=kelseyhightower",
+    "banner": "https://images.unsplash.com/photo-1550001909395?w=600&h=200",
+    "location": "Portland",
+    "website": "https://kelseyhightower.dev",
+    "joinedAt": "2023-06-02T05:59:57.521Z",
+    "followers": [
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a"
+    ],
+    "following": [
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e",
+      "2c201b14-1eef-475e-b6a9-1e7d1b4649ba"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp"
+    ],
+    "streak": 92,
+    "lastPostDate": "2026-02-04T05:02:13.595Z",
+    "totalReactions": 108,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "573657ec-f5c0-499f-a510-9e9144a31c2e",
+    "username": "swyx",
+    "email": "swyx@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "swyx",
+    "bio": "📚 Learning in Public. Writer at dx.tips",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=swyx",
+    "banner": "https://images.unsplash.com/photo-1550002289799?w=600&h=200",
+    "location": "Singapore",
+    "website": "https://swyx.dev",
+    "joinedAt": "2022-01-31T09:56:41.715Z",
+    "followers": [
+      "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+      "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+      "f8889469-07b3-4d0e-a18a-c8163f92704d"
+    ],
+    "following": [
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+      "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+      "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp",
+      "night_owl"
+    ],
+    "streak": 234,
+    "lastPostDate": "2026-02-04T05:02:13.595Z",
+    "totalReactions": 173,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "997778f2-fcd7-431b-8691-72740af29c8d",
+    "username": "jhooks",
+    "email": "jhooks@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Joel Hooks",
+    "bio": "🥚 Cofounder of egghead.io. Helping devs level up.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=jhooks",
+    "banner": "https://images.unsplash.com/photo-1550006099695?w=600&h=200",
+    "location": "Vancouver",
+    "website": "https://jhooks.dev",
+    "joinedAt": "2021-12-01T16:22:57.250Z",
+    "followers": [
+      "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+      "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830"
+    ],
+    "following": [
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+      "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb",
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp",
+      "night_owl"
+    ],
+    "streak": 67,
+    "lastPostDate": "2026-02-04T05:02:13.595Z",
+    "totalReactions": 83,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+    "username": "wesbos",
+    "email": "wesbos@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "Wes Bos",
+    "bio": "🔥 Full Stack Developer. Teacher. Boss level BBQ.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=wesbos",
+    "banner": "https://images.unsplash.com/photo-1550002242938?w=600&h=200",
+    "location": "Hamilton",
+    "website": "https://wesbos.dev",
+    "joinedAt": "2020-03-25T00:57:47.704Z",
+    "followers": [
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "5ee4aad8-ac35-4653-a6a4-b8562a64970e",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830"
+    ],
+    "following": [
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "f8889469-07b3-4d0e-a18a-c8163f92704d",
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp",
+      "night_owl"
+    ],
+    "streak": 112,
+    "lastPostDate": "2026-02-04T05:02:13.595Z",
+    "totalReactions": 99,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  },
+  {
+    "id": "3d5e65cc-ee74-4548-ab8e-9d1b5a2f5830",
+    "username": "theprimeagen",
+    "email": "theprimeagen@chirp.dev",
+    "password": "$2a$10$V38JCh4GV5XG0fUmngNn2u/4FMKaBA4jeSFM9lSUvdpImqtyz.tnO",
+    "displayName": "ThePrimeagen",
+    "bio": "⌨️ Vim enthusiast. Netflix engineer. Rust evangelist.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=theprimeagen",
+    "banner": "https://images.unsplash.com/photo-1550006180081?w=600&h=200",
+    "location": "Somewhere",
+    "website": "https://theprimeagen.dev",
+    "joinedAt": "2022-05-17T15:01:08.528Z",
+    "followers": [
+      "2c201b14-1eef-475e-b6a9-1e7d1b4649ba",
+      "0df89047-8e12-488d-aa4c-786520857a1e",
+      "1984547c-443c-49dc-825a-3d166cf0a2a2",
+      "511b187a-fb14-45e1-aaee-6a5e3fe3e86e",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "573657ec-f5c0-499f-a510-9e9144a31c2e"
+    ],
+    "following": [
+      "61e85fd0-f29e-48dd-ba3a-d31cc5481a4a",
+      "8976f7c4-1219-48a1-88c3-963ce3009ba0",
+      "997778f2-fcd7-431b-8691-72740af29c8d",
+      "6101b36e-8db9-4e62-8b88-15ce91f10c78",
+      "c7a36828-3a9c-4426-9b2c-4cabe601b267",
+      "83c1b042-3041-41c6-8cb1-650ba98826ce",
+      "be0afca7-e9fb-44b2-baa6-6323b6d0f8cb"
+    ],
+    "achievements": [
+      "streak_week",
+      "streak_month",
+      "first_chirp"
+    ],
+    "streak": 88,
+    "lastPostDate": "2026-02-04T05:02:13.595Z",
+    "totalReactions": 94,
+    "soundEnabled": true,
+    "focusMode": false,
+    "theme": "dark"
+  }
+]
