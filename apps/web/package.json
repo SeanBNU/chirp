@@ -11,23 +11,26 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "@chirp/shared": "*",
     "@tanstack/react-query": "^5.18.1",
     "date-fns": "^3.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.0",
     "socket.io-client": "^4.7.4",
-    "zustand": "^4.5.0",
-    "@chirp/shared": "*"
+    "zustand": "^4.5.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
-    "jsdom": "^24.0.0",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.17",
+    "eslint": "^9.39.2",
+    "jsdom": "^24.0.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3",
