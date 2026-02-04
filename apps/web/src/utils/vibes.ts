@@ -48,7 +48,7 @@ export function playSound(type: 'post' | 'reaction' | 'achievement'): void {
     };
     
     const freqs = frequencies[type] || [440];
-    let time = audioContext.currentTime;
+    const time = audioContext.currentTime;
     
     freqs.forEach((freq, i) => {
       oscillator.frequency.setValueAtTime(freq, time + i * 0.1);

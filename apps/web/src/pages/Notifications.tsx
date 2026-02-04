@@ -9,9 +9,10 @@ function getNotificationText(notification: NotificationType): string {
   switch (notification.type) {
     case 'follow':
       return 'followed you';
-    case 'reaction':
+    case 'reaction': {
       const emoji = notification.reactionType ? REACTIONS[notification.reactionType]?.emoji : '';
       return `reacted ${emoji} to your chirp`;
+    }
     case 'reply':
       return 'replied to your chirp';
     case 'retweet':
