@@ -12,11 +12,14 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const app = express();
-const PORT = 3001;
-const JWT_SECRET = 'chirp-clone-secret-key-2024';
+const PORT = process.env.PORT || 3001;
+const JWT_SECRET = process.env.JWT_SECRET || 'chirp-clone-secret-key-2024';
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: process.env.CORS_ORIGIN || '*',
+  credentials: true
+}));
 app.use(express.json());
 app.use('/uploads', express.static(join(__dirname, 'uploads')));
 
@@ -923,6 +926,17 @@ function enrichTweet(tweet, allTweets, users) {
   };
 }
 
+// Serve static frontend in production
+const publicDir = join(__dirname, 'public');
+if (fs.existsSync(publicDir)) {
+  app.use(express.static(publicDir));
+  app.get('*', (req, res) => {
+    if (!req.path.startsWith('/api') && !req.path.startsWith('/uploads')) {
+      res.sendFile(join(publicDir, 'index.html'));
+    }
+  });
+}
+
 app.listen(PORT, () => {
-  console.log(`🐦 Chirp server running on http://localhost:${PORT}`);
+  console.log(`🐦 Chirp server running on port ${PORT}`);
 });

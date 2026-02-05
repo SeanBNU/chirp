@@ -2,8 +2,11 @@
 
 > **Portfolio Project** — A full-stack application demonstrating modern web development practices including TypeScript, React, Node.js, PostgreSQL, Docker, CI/CD, and real-time features.
 
+**[Live Demo](https://genuine-encouragement-production.up.railway.app)** · **[GitHub](https://github.com/SeanBNU/chirp)**
+
 [![CI](https://github.com/SeanBNU/chirp/actions/workflows/ci.yml/badge.svg)](https://github.com/SeanBNU/chirp/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/chirp)
 
 A modern, full-stack social media platform for developers. Think Twitter, but built for the dev community with unique features like code snippets, vibes, achievements, and streaks.
 
