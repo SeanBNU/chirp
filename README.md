@@ -130,10 +130,11 @@ chirp/
 ### Prerequisites
 
 - Node.js 18+
-- Docker and Docker Compose
 - npm or yarn
 
-### Installation
+### Quick Start (Recommended)
+
+The fastest way to run locally uses the JSON file-based storage:
 
 1. **Clone the repository**
    ```bash
@@ -141,40 +142,51 @@ chirp/
    cd chirp
    ```
 
-2. **Start the database**
+2. **Install and start the backend**
+   ```bash
+   cd server
+   npm install
+   node seed.js  # Generate sample data
+   node index.js
+   ```
+
+3. **Install and start the frontend** (in a new terminal)
+   ```bash
+   cd client
+   npm install
+   npm run dev
+   ```
+
+4. **Open the app**
+   
+   Navigate to [http://localhost:5173](http://localhost:5173)
+
+### Alternative: Docker + PostgreSQL Setup
+
+For the full TypeScript/PostgreSQL setup:
+
+1. **Start the database**
    ```bash
    docker compose up -d postgres
    ```
 
-3. **Install dependencies**
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-4. **Set up environment variables**
+3. **Set up environment and database**
    ```bash
    cp apps/api/.env.example apps/api/.env
-   ```
-
-5. **Generate Prisma client and run migrations**
-   ```bash
    npm run db:generate
    npm run db:push
-   ```
-
-6. **Seed the database**
-   ```bash
    npm run db:seed
    ```
 
-7. **Start the development servers**
+4. **Start development servers**
    ```bash
    npm run dev
    ```
-
-8. **Open the app**
-   
-   Navigate to [http://localhost:5173](http://localhost:5173)
 
 ### Demo Accounts
 
