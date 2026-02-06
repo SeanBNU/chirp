@@ -5,7 +5,7 @@
     "buildCommand": "cd client && npm install && npm run build && cp -r dist ../server/public && cd ../server && npm install"
   },
   "deploy": {
-    "startCommand": "cd server && node index.js",
+    "startCommand": "node server/index.js",
     "healthcheckPath": "/api/tweets",
     "restartPolicyType": "ON_FAILURE"
   }
