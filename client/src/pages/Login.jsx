@@ -7,7 +7,9 @@ export default function Login() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
+  const [demoLoading, setDemoLoading] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
+  const { login, demoLogin } = useAuth();
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
@@ -25,93 +27,145 @@ export default function Login() {
     }
   };
 
+  const handleDemoLogin = async () => {
+    setError('');
+    setDemoLoading(true);
+
+    try {
+      await demoLogin();
+      navigate('/');
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setDemoLoading(false);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-black flex items-center justify-center p-4">
-      <div className="w-full max-w-[380px]">
-        <div className="flex justify-center mb-8">
+      <div className="w-full max-w-[420px]">
+        {/* Logo */}
+        <div className="flex justify-center mb-10">
           <div className="flex items-center gap-3">
-            <span className="text-4xl">🐦</span>
-            <span className="text-3xl font-semibold text-white">Chirp</span>
+            <span className="text-5xl">🐦</span>
+            <span className="text-4xl font-semibold text-white">Chirp</span>
           </div>
         </div>
 
-        <div className="card p-8">
-          <h1 className="text-2xl font-semibold text-white mb-6">Sign in</h1>
+        {/* Tagline */}
+        <p className="text-center text-[#71767b] mb-8 text-lg">
+          A developer social network with vibes, reactions, and achievements.
+        </p>
 
-          <form onSubmit={handleSubmit} className="space-y-4">
-            {error && (
-              <div className="bg-red-500/10 text-red-400 p-3 rounded-lg text-sm border border-red-500/20">
-                {error}
-              </div>
-            )}
+        {/* Demo button - front and center */}
+        <button
+          onClick={handleDemoLogin}
+          disabled={demoLoading}
+          className="w-full py-4 px-6 rounded-full text-lg font-semibold text-white transition-all duration-200"
+          style={{
+            background: demoLoading
+              ? '#6b21a8'
+              : 'linear-gradient(135deg, #a855f7 0%, #7c3aed 100%)',
+            boxShadow: '0 0 20px rgba(168, 85, 247, 0.3)',
+          }}
+          onMouseEnter={(e) => {
+            if (!demoLoading) e.target.style.boxShadow = '0 0 30px rgba(168, 85, 247, 0.5)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.boxShadow = '0 0 20px rgba(168, 85, 247, 0.3)';
+          }}
+        >
+          {demoLoading ? (
+            <span className="flex items-center justify-center gap-2">
+              <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+              </svg>
+              Signing in...
+            </span>
+          ) : (
+            'Try the Demo'
+          )}
+        </button>
 
-            <div>
-              <input
-                type="text"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                placeholder="Username or email"
-                className="input-clean w-full"
-                required
-              />
-            </div>
+        <p className="text-center text-[#71767b] text-sm mt-3">
+          Jump right in — no account needed
+        </p>
 
-            <div>
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="Password"
-                className="input-clean w-full"
-                required
-              />
-            </div>
-
-            <button
-              type="submit"
-              disabled={loading}
-              className="btn-primary w-full py-3"
-            >
-              {loading ? 'Signing in...' : 'Sign in'}
-            </button>
-          </form>
-
-          <p className="text-[#71767b] mt-6 text-center text-sm">
-            Don't have an account?{' '}
-            <Link to="/register" className="text-[#a855f7] hover:underline">
-              Sign up
-            </Link>
-          </p>
-        </div>
-
-        <div className="mt-6 card p-4">
-          <p className="text-[#71767b] text-xs mb-3 text-center">Demo accounts</p>
-          <div className="grid grid-cols-2 gap-2 text-sm">
-            <div className="text-[#71767b]">
-              <span className="text-[#e7e9ea]">swyx</span>
-              <span className="text-xs ml-1">234d 🔥</span>
-            </div>
-            <div className="text-[#71767b]">
-              <span className="text-[#e7e9ea]">cassidoo</span>
-              <span className="text-xs ml-1">156d 🔥</span>
-            </div>
-            <div className="text-[#71767b]">
-              <span className="text-[#e7e9ea]">naval</span>
-              <span className="text-xs ml-1">128d 🔥</span>
-            </div>
-            <div className="text-[#71767b]">
-              <span className="text-[#e7e9ea]">dan_abramov</span>
-            </div>
+        {error && (
+          <div className="mt-4 bg-red-500/10 text-red-400 p-3 rounded-lg text-sm border border-red-500/20">
+            {error}
           </div>
-          <p className="text-[#71767b] text-xs mt-3 text-center">Password: password123</p>
-        </div>
+        )}
 
-        <div className="mt-4 flex flex-wrap justify-center gap-2">
+        {/* Feature badges */}
+        <div className="mt-8 flex flex-wrap justify-center gap-2">
           <span className="badge badge-subtle">Vibes</span>
           <span className="badge badge-subtle">Reactions</span>
           <span className="badge badge-subtle">Polls</span>
           <span className="badge badge-subtle">Achievements</span>
-          <span className="badge badge-subtle">Code</span>
+          <span className="badge badge-subtle">Code Snippets</span>
+          <span className="badge badge-subtle">Streaks</span>
+        </div>
+
+        {/* Divider */}
+        <div className="mt-8 flex items-center gap-4">
+          <div className="flex-1 h-px bg-[#2f3336]" />
+          <span className="text-[#71767b] text-xs uppercase tracking-wider">or</span>
+          <div className="flex-1 h-px bg-[#2f3336]" />
+        </div>
+
+        {/* Collapsible sign-in */}
+        <div className="mt-6">
+          {!showLogin ? (
+            <button
+              onClick={() => setShowLogin(true)}
+              className="w-full py-3 px-6 rounded-full text-sm font-medium text-[#a855f7] border border-[#2f3336] hover:border-[#a855f7]/50 hover:bg-[#a855f7]/5 transition-all duration-200"
+            >
+              Sign in with an existing account
+            </button>
+          ) : (
+            <div className="card p-6 animate-fadeIn">
+              <form onSubmit={handleSubmit} className="space-y-4">
+                <div>
+                  <input
+                    type="text"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    placeholder="Username or email"
+                    className="input-clean w-full"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <input
+                    type="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    placeholder="Password"
+                    className="input-clean w-full"
+                    required
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="btn-primary w-full py-3"
+                >
+                  {loading ? 'Signing in...' : 'Sign in'}
+                </button>
+              </form>
+
+              <p className="text-[#71767b] mt-4 text-center text-sm">
+                Don't have an account?{' '}
+                <Link to="/register" className="text-[#a855f7] hover:underline">
+                  Sign up
+                </Link>
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </div>

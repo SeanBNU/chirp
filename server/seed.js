@@ -17,6 +17,7 @@ const REACTIONS = ['fire', 'rocket', 'lightbulb', 'heart', 'laugh', 'mindblown']
 
 // Dummy user data - more diverse dev community
 const dummyUsers = [
+  { username: 'anonymous_chirper', displayName: 'Anonymous Chirper', bio: '👋 Just exploring Chirp! This is the demo account.', location: 'The Internet', streak: 1 },
   { username: 'elonmusk', displayName: 'Elon Musk', bio: '🚀 Mars & Cars, Tunnels & Tweets', location: 'Mars', streak: 42 },
   { username: 'naval', displayName: 'Naval', bio: '🧘 Angel investor, entrepreneur. Seeking wisdom.', location: 'San Francisco', streak: 128 },
   { username: 'paulg', displayName: 'Paul Graham', bio: '📝 Founder of Y Combinator. Essays at paulgraham.com', location: 'UK', streak: 67 },
@@ -138,7 +139,7 @@ async function seed() {
 
   // Create users
   const users = [];
-  const password = await bcrypt.hash('password123', 10);
+  const password = await bcrypt.hash('ididntknow', 10);
 
   for (const userData of dummyUsers) {
     const achievements = [];
@@ -441,13 +442,14 @@ async function seed() {
 
   console.log('\n✨ Seeding complete!');
   console.log('\n🐦 Welcome to Chirp - The Developer Social Network!');
-  console.log('\n📝 Test accounts (all use password: password123):');
+  console.log('\n📝 Demo account: anonymous_chirper');
+  console.log('   All accounts use password: ididntknow');
+  console.log('   - anonymous_chirper (demo account)');
   console.log('   - elonmusk (42-day streak 🔥)');
   console.log('   - naval (128-day streak 🔥)');
   console.log('   - cassidoo (156-day streak 🔥)');
   console.log('   - swyx (234-day streak 🔥)');
-  console.log('   - dan_abramov');
-  console.log('   ... and 10 more developers!');
+  console.log('   ... and 11 more developers!');
   console.log('\n🎮 Features: Vibes, Reactions, Polls, Streaks, Achievements, Code Snippets!');
 }
 

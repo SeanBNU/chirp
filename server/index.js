@@ -210,6 +210,44 @@ app.post('/api/auth/login', async (req, res) => {
   res.json({ token, user: userWithoutPassword });
 });
 
+// Demo login - auto-creates anonymous_chirper if it doesn't exist
+app.post('/api/auth/demo', async (req, res) => {
+  const users = readData('users.json');
+  let user = users.find(u => u.username === 'anonymous_chirper');
+
+  if (!user) {
+    const hashedPassword = await bcrypt.hash('ididntknow', 10);
+    user = {
+      id: uuidv4(),
+      username: 'anonymous_chirper',
+      email: 'demo@chirp.dev',
+      password: hashedPassword,
+      displayName: 'Anonymous Chirper',
+      bio: '👋 Just exploring Chirp! This is the demo account.',
+      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=anonymous_chirper',
+      banner: 'https://images.unsplash.com/photo-1557683316-973673baf926?w=600',
+      location: 'The Internet',
+      website: '',
+      joinedAt: new Date().toISOString(),
+      followers: [],
+      following: [],
+      achievements: ['first_chirp'],
+      streak: 1,
+      lastPostDate: new Date().toISOString(),
+      totalReactions: 0,
+      soundEnabled: true,
+      focusMode: false,
+      theme: 'dark'
+    };
+    users.push(user);
+    writeData('users.json', users);
+  }
+
+  const token = jwt.sign({ userId: user.id }, JWT_SECRET, { expiresIn: '7d' });
+  const { password: _, ...userWithoutPassword } = user;
+  res.json({ token, user: userWithoutPassword });
+});
+
 app.get('/api/auth/me', auth, (req, res) => {
   const users = readData('users.json');
   const user = users.find(u => u.id === req.userId);
